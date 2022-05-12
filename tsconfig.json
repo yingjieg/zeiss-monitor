@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "jsx": "react-jsx",
+
+    "module": "es6",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+
+    "sourceMap": true,
+    "outDir": "./dist",
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+
+    "skipLibCheck": true,
+  },
+  "include": ["src", "index.d.ts"],
+  "exclude": ["node_modules", "webpack", "dist"]
+}

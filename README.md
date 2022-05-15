@@ -6,9 +6,23 @@
 * Node.js LTS >= 14.x
 
 ### Local development environment setup
-1. Clone repo and enter "zeiss-monitor" 
-2. npm install
-3. npm run serve
+Clone repo and enter "zeiss-monitor", then
+```bash
+npm install
+```
+#### Run Dev Server
+```bash
+npm run serve
+```
+#### Lint
+```bash
+npm run lint
+```
+
+#### Test
+```bash
+npm run test
+```
 
 then you can use your favorite IDE to edit the code.
 

@@ -31,6 +31,7 @@ export default function MachineInfoTable({
         <tr>
           <td colSpan={2}>
             <button
+              style={{ border: 0, padding: 4, cursor: 'pointer' }}
               onClick={e => {
                 e.preventDefault();
                 onEventDetailBtnClick?.(machine);
